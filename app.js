@@ -29,7 +29,7 @@ window.addEventListener('load', () => {
             let b = Math.floor(Math.random() * 255);
             span.style.color = `rgb(${r}, ${g}, ${b})`;
             //add random size
-            span.style.fontSize = Math.floor(Math.random() * 72)+"px";
+            span.style.fontSize = Math.floor(Math.random() * (72-20) + 20)+"px";
             container.appendChild(span);
             counter++;
         }
